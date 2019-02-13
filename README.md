@@ -21,13 +21,12 @@ Para atualizar o arquivo do browscap, execute periodicamente o comando do passo 
 
 Exemplo de virtual host para o Apache:
 
+```
 <VirtualHost *:80>
-        ServerName useragentapi.everton.rocks
-
-        ServerAdmin webmaster@localhost
-        DocumentRoot /home/everton/vhosts/useragentapi/web
-
-        ErrorLog ${APACHE_LOG_DIR}/error.log
-        CustomLog ${APACHE_LOG_DIR}/access.log combined
-
+ServerName useragentapi.everton.rocks
+ServerAdmin webmaster@localhost
+DocumentRoot /home/everton/vhosts/useragentapi/web
+ErrorLog ${APACHE_LOG_DIR}/error.log
+CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
+```
