@@ -1,4 +1,4 @@
-#User Agent API
+# User Agent API 
 
 Uma implementação da biblioteca https://github.com/browscap/browscap-php, para retornar alguns dados do navegador.
 
